@@ -1,0 +1,1151 @@
+[
+    {
+        "authors": "Mantodea",
+        "name": "Axiom Chinese Simplified",
+        "desc": "Axiom的中文翻译",
+        "mods": "Axiom",
+        "dynamic": false,
+        "i18n": false
+    },
+    {
+        "target_class": [
+            "com.moulberry.axiom.AxiomClient",
+            "com.moulberry.axiom.editor.windows.MainMenuBar", 
+            "com.moulberry.axiom.editor.windows.KeybindsWindow", 
+            "com.moulberry.axiom.tools.modify.ModifyTool", 
+            "com.moulberry.axiom.editor.windows.HistoryWindow",
+            "com.moulberry.axiom.editor.windows.global_mask.ToolMaskWindow",
+            "com.moulberry.axiom.mask.LuaHelper",
+            "com.moulberry.axiom.tools.magic_select.MagicSelectTool",
+            "com.moulberry.axiom.tools.annotation.AnnotationTool",
+            "com.moulberry.axiom.editor.windows.operations.AutoshadeWindow",
+            "com.moulberry.axiom.tools.ruler.RulerTool",
+            "com.moulberry.axiom.tools.script_brush.ScriptBrushTool",
+            "com.moulberry.axiom.tools.rock.RockTool",
+            "com.moulberry.axiom.tools.weld.WeldTool",
+            "com.moulberry.axiom.tools.stamp.StampTool",
+            "com.moulberry.axiom.tools.shape.ShapeTool",
+            "com.moulberry.axiom.tools.path.PathTool",
+            "com.moulberry.axiom.tools.modelling.ModellingTool",
+            "com.moulberry.axiom.tools.floodfill.FloodfillTool",
+            "com.moulberry.axiom.tools.fluidball.FluidBall",
+            "com.moulberry.axiom.tools.extrude.ExtrudeTool",
+            "com.moulberry.axiom.editor.windows.PlacementOptionsOverlay",
+            "com.moulberry.axiom.screen.CreativeGradientScreen",
+            "com.moulberry.axiom.screen.CreativeColourScreen",
+            "com.moulberry.axiom.editor.windows.clipboard.BlueprintBrowserWindow",
+            "com.moulberry.axiom.editor.windows.TextAnnotationListWindow",
+            "com.moulberry.axiom.editor.windows.TextAnnotationListWindow$1",
+            "com.moulberry.axiom.tools.lasso_select.LassoSelect",
+            "com.moulberry.axiom.editor.windows.operations.QuickReplaceWindow",
+            "com.moulberry.axiom.tools.box_select.BoxSelectTool",
+            "com.moulberry.axiom.editor.windows/StyleEditorWindow"
+        ],
+        "pairs": [
+            {
+                "key": "Export Minecraft Structure NBT",
+                "value": "导出Minecraft结构NBT"
+            },
+            {
+                "key": "Clipboard is empty",
+                "value": "剪切板是空的"
+            },
+            {
+                "key": "Export as CSV",
+                "value": "将所选内容保存为CSV文件"
+            },
+            {
+                "key": "    ",
+                "value": "服务器禁止导出文件"
+            },
+            {
+                "key": "Selection is empty",
+                "value": "所选内容是空的"
+            },
+            {
+                "key": "Move Selection",
+                "value": "移动选区"
+            },
+            {
+                "key": "Convex Hull",
+                "value": "凸包"
+            },
+            {
+                "key": "Save...",
+                "value": "保存..."
+            },
+            {
+                "key": "Save selection region to a file. Can be used in external programs, or loaded through the Load... button below",
+                "value": "将选区保存为文件。可以用于其他外部项目或者通过下面的“加载...”按钮进行加载"
+            },
+            {
+                "key": "Load...",
+                "value": "加载..."
+            },
+            {
+                "key": "Load a selection region from a file",
+                "value": "从文件中加载选区"
+            },
+            {
+                "key": "Set the compatibility version for Blocks. Incompatible newer blocks will be highlighted with a red background",
+                "value": "设置方块的兼容版本。不兼容的较新方块将以红色背景高亮显示。"
+            },
+            {
+                "key": "Block Version",
+                "value": "方块版本"
+            },
+            {
+                "key": "Hollow replaces all unreachable blocks inside your build with air",
+                "value": "挖空会将建筑内部所有不可达方块替换为空气"
+            },
+            {
+                "key": "Fill gaps replaces all unreachable air blocks inside your build with your active block",
+                "value": "填充间隙会建筑内部所有不可达的空气方块替换为你选中的方块"
+            },
+            {
+                "key": "Fill unreachable replaces all unreachable non-air blocks inside your build with your active block",
+                "value": "填充不可达会建筑内部所有不可达的非空气方块替换为你选中的方块"
+            },
+            {
+                "key": "Animated Rebuild...",
+                "value": "动画化重建..."
+            },
+            {
+                "key": "Gradually rebuilds a selection block-by-block. This feature is intended for content creators making video showcases of a build",
+                "value": "逐步按方块重建一个选区。此功能专为内容创作者制作建筑展示视频而设计。"
+            },
+            {
+                "key": "Store Current Layout as Default",
+                "value": "将当前布局设置为默认布局"
+            },
+            {
+                "key": "Restore Default Layout",
+                "value": "恢复默认布局"
+            },
+            {
+                "key": "Copy Current Layout to Clipboard",
+                "value": "将当前布局复制到剪切板"
+            },
+            {
+                "key": "Load Layout from Clipboard",
+                "value": "从剪切板加载布局"
+            },
+            {
+                "key": "Skip Tutorial",
+                "value": "跳过教程"
+            },
+            {
+                "key": "Open Source Licenses",
+                "value": "开源协议"
+            },
+            {
+                "key": "Introduction",
+                "value": "介绍"
+            },
+            {
+                "key": "Selection",
+                "value": "选择"
+            },
+            {
+                "key": "Tools",
+                "value": "工具"
+            },
+            {
+                "key": "Magic Select",
+                "value": "魔法选择"
+            },
+            {
+                "key": "Box Select",
+                "value": "框选"
+            },
+            {
+                "key": "Slope",
+                "value": "斜面"
+            },
+            {
+                "key": "Sculpt Draw",
+                "value": "雕刻"
+            },
+            {
+                "key": "Pick Block Drag",
+                "value": "获得目标方块拖拽"
+            },
+            {
+                "key": "Use Viewport Center for Arcball",
+                "value": "使用视图中心作为环绕中心"
+            },
+            {
+                "key": "Cut: Copy to clipboard",
+                "value": "剪切: 同时复制到剪切板"
+            },
+            {
+                "key": "Modify",
+                "value": "修改"
+            },
+            {
+                "key": "⚠ History is not being saved",
+                "value": "⚠ 历史记录未保存"
+            },
+            {
+                "key": "Automatic history persistence is a Commercial License feature. Click for more information",
+                "value": "自动保存历史记录是一项商业许可证的功能。单击以获取更多信息"
+            },
+            {
+                "key": "Mask",
+                "value": "蒙版"
+            },
+            {
+                "key": "Presets",
+                "value": "预设"
+            },
+            {
+                "key": "Scripting",
+                "value": "脚本"
+            },
+            {
+                "key": "Examples",
+                "value": "模板"
+            },
+            {
+                "key": "Single block##SingleBlockMask",
+                "value": "单个方块##SingleBlockMask"
+            },
+            {
+                "key": "Multiple blocks",
+                "value": "多种方块"
+            },
+            {
+                "key": "Grass surface",
+                "value": "草皮"
+            },
+            {
+                "key": "Lower edge",
+                "value": "下边界"
+            },
+            {
+                "key": "Upper edge",
+                "value": "上边界"
+            },
+            {
+                "key": "Shoreline",
+                "value": "海岸线"
+            },
+            {
+                "key": "Single block##SingleBlockScript",
+                "value": "单个方块##SingleBlockScript"
+            },
+            {
+                "key": "Top 3-4 blocks",
+                "value": "顶层3或4个方块"
+            },
+            {
+                "key": "Simplex noise",
+                "value": "简单噪声"
+            },
+            {
+                "key": "Voronoi edges noise",
+                "value": "沃罗诺伊边界噪声"
+            },
+            {
+                "key": "Invalid soil blocks",
+                "value": "不符合条件的土方块"
+            },
+            {
+                "key": "Lua Script Mask (Hover for help)",
+                "value": "Lua脚本蒙版 (悬停以获取帮助)"
+            },
+            {
+                "key": "Create a mask using a Lua script\nFunction must return true/false\n\n",
+                "value": "使用lua脚本创建一个蒙版\n函数必须返回true或false\n\n"
+            },
+            {
+                "key": "Custom variables:\nx, y, z -> coords of target location\nblocks.abc -> retrieve the id for a Block, eg. blocks.stone for the id of stone\nplayer_x, player_y, player_z, player_yaw, player_pitch -> position of player when executing script\nactiveBlockState -> the BlockState in the 'Active Block State' window\n\nCustom functions:\ngetBlock(x, y, z) -> get the Block id at position xyz\ngetBlockState(x, y, z) -> get the BlockState id at position xyz\ngetHighestBlockYAt(x, z) -> get the y coordinate of the highest solid block at xz\ngetSimplexNoise(x, y, z, (seed)) -> sample simplex noise at position x, y, z\ngetVoronoiEdgeNoise(x, y, z, (seed)) -> sample voronoi edge noise at position xyz\nisSolid(block) -> get if the block argument is solid\nisBlockTagged(block, \"tag\") -> get if the block argument has the given block tag\nwithBlockProperty(block, \"property=value\", ...) -> update property to value for block\ngetBlockProperty(block, \"property\") -> gets the value of a property as a string, or nil if it doesn't exist\ngetBlockRGB(block) -> gets the average rgb of the given block\nfindClosestBlockToRGB(rgb, (flags), (index)) -> finds the block that's closest to the given RGB value\nisSelected(x, y, z) -> get if position xyz is selected, or true if there is no selection\n",
+                "value": "自定义变量:\nx, y, z -> 目标位置的坐标\nblocks.abc -> 获取一个方块的id 例如: blocks.stone 返回石头的id\nplayer_x, player_y, player_z, player_yaw, player_pitch -> 执行脚本时玩家的位置、水平角度和俯仰角度\nactiveBlockState -> 'Active Block State' 窗口中的BlockState\n\n自定义函数:\ngetBlock(x, y, z) -> 获取坐标xyz位置的方块\ngetBlockState(x, y, z) -> 获取坐标xyz位置的BlockState的id\ngetHighestBlockYAt(x, z) -> 获取xz位置最高处的方块的y坐标\ngetSimplexNoise(x, y, z, (seed)) -> 获取xyz位置简单噪声的采样 seed为种子\ngetVoronoiEdgeNoise(x, y, z, (seed)) -> 获取xyz位置沃罗诺伊边界噪声的采样 seed为种子\nisSolid(block) -> 方块示例是否为固体\nisBlockTagged(block, \"tag\") -> 方块示例是否有某个tag\nwithBlockProperty(block, \"property=value\", ...) -> 更新方块实例的属性\ngetBlockProperty(block, \"property\") -> 以string形式获取方块实例的某个属性 若不存在则返回nil\ngetBlockRGB(block) -> 获取方块实例的平均颜色\nfindClosestBlockToRGB(rgb, (flags), (index)) -> 寻找与所给颜色最相近的方块\nisSelected(x, y, z) -> 坐标xyz位置的方块是否被选中 若没有选区则返回true\n"
+            },
+            {
+                "key": "setBlock(x, y, z, block) -> set an additional block at the position x, y, z\n",
+                "value": "setBlock(x, y, z, block) -> 将xyz坐标位置的方块设置为\n"
+            },
+            {
+                "key": "Up",
+                "value": "向上"
+            },
+            {
+                "key": "Down",
+                "value": "向下"
+            },
+            {
+                "key": "Horizontal",
+                "value": "同一平面"
+            },
+            {
+                "key": "Corners",
+                "value": "转角"
+            },
+            {
+                "key": "Draw",
+                "value": "绘制"
+            },
+            {
+                "key": "Outline",
+                "value": "高亮"
+            },
+            {
+                "key": "Text",
+                "value": "文本"
+            },
+            {
+                "key": "Image",
+                "value": "图片"
+            },
+            {
+                "key": "Erase",
+                "value": "擦除"
+            },
+            {
+                "key": "Move",
+                "value": "移动"
+            },
+            {
+                "key": "Options",
+                "value": "选项"
+            },
+            {
+                "key": "Line Width",
+                "value": "线条宽度"
+            },
+            {
+                "key": "Color",
+                "value": "颜色"
+            },
+            {
+                "key": "Mode",
+                "value": "模式"
+            },
+            {
+                "key": "Freehand",
+                "value": "自由绘制"
+            },
+            {
+                "key": "Lines",
+                "value": "直线"
+            },
+            {
+                "key": "Box",
+                "value": "矩形"
+            },
+            {
+                "key": "⚠ Maximum outline box size reached. Boxes with a volume of >1,000,000 are disallowed for performance reasons",
+                "value": "⚠ 已达到轮廓框的最大尺寸限制。出于性能考虑，禁止使用体积大于 1,000,000 的框体"
+            },
+            {
+                "key": "Shadow",
+                "value": "阴影"
+            },
+            {
+                "key": "Scale",
+                "value": "缩放"
+            },
+            {
+                "key": "Billboard",
+                "value": "朝向"
+            },
+            {
+                "key": "Fixed",
+                "value": "固定朝向"
+            },
+            {
+                "key": "Horizontal",
+                "value": "水平朝向 (只绕Y轴旋转)"
+            },
+            {
+                "key": "Vertical",
+                "value": "垂直朝向 (只绕X或Z轴旋转)"
+            },
+            {
+                "key": "Center",
+                "value": "始终朝向玩家"
+            },
+            {
+                "key": "Text",
+                "value": "文本"
+            },
+            {
+                "key": "Opacity",
+                "value": "不透明度"
+            },
+            {
+                "key": "Width",
+                "value": "宽度"
+            },
+            {
+                "key": "Image URL",
+                "value": "图片URL"
+            },
+            {
+                "key": "Update",
+                "value": "更新"
+            },
+            {
+                "key": "Raycast Fluids",
+                "value": "光线投射流体 (启用后，注释将与液体发生碰撞)"
+            },
+            {
+                "key": "Total Annotations: ",
+                "value": "注释总数: "
+            },
+            {
+                "key": "Annotations in range: ",
+                "value": "区域内注释: "
+            },
+            {
+                "key": "View All Text Annotations",
+                "value": "查看所有文本注释"
+            },
+            {
+                "key": "Clear ALL Annotations",
+                "value": "清除所有注释"
+            },
+            {
+                "key": "Server has not given you permission to clear all annotations",
+                "value": "服务器没有给予你清除所有注释的权限"
+            },
+            {
+                "key": "Are you sure? If you clear all annotations in this world, it won't be possible to recover them!",
+                "value": "你确定吗？如果你清除了当前世界所有的注释，将无法再次恢复它们！"
+            },
+            {
+                "key": "I'm sure! Delete them",
+                "value": "我确定！删除它们"
+            },
+            {
+                "key": "Cancel",
+                "value": "取消"
+            },
+            {
+                "key": "Revolve",
+                "value": "旋转成型"
+            },
+            {
+                "key": "Translate Copies",
+                "value": "平移复制"
+            },
+            {
+                "key": "Rotate Copies",
+                "value": "旋转复制"
+            },
+            {
+                "key": "Twist",
+                "value": "扭曲"
+            },
+            {
+                "key": "Angle",
+                "value": "角度"
+            },
+            {
+                "key": "Axis",
+                "value": "坐标轴"
+            },
+            {
+                "key": "Add Translation",
+                "value": "应用平移"
+            },
+            {
+                "key": "Total X",
+                "value": "X总量"
+            },
+            {
+                "key": "Total Y",
+                "value": "Y总量"
+            },
+            {
+                "key": "Total Z",
+                "value": "Z总量"
+            },
+            {
+                "key": "⚠ Missing selection",
+                "value": "⚠ 没有选区"
+            },
+            {
+                "key": " to revolve around point",
+                "value": "来绕点旋转"
+            },
+            {
+                "key": "Count",
+                "value": "数量"
+            },
+            {
+                "key": "Type",
+                "value": "类型"
+            },
+            {
+                "key": "Relative",
+                "value": "相对"
+            },
+            {
+                "key": "Absolute",
+                "value": "绝对"
+            },
+            {
+                "key": "Relative - Offsets blocks by multiples of the selection size\nAbsolute - Offsets blocks by exact coordinates",
+                "value": "相对偏移值会乘以选择区域的大小而绝对偏移值不会变化"
+            },
+            {
+                "key": " to translate",
+                "value": "来平移"
+            },
+            {
+                "key": "Equidistant", 
+                "value": "等角度"
+            },
+            {
+                "key": "Custom Angle",
+                "value": "自定义角度"
+            },
+            {
+                "key": "Degrees X",
+                "value": "X角度"
+            },
+            {
+                "key": "Degrees Y",
+                "value": "Y角度"
+            },
+            {
+                "key": "Degrees Z",
+                "value": "Z角度"
+            },
+            {
+                "key": " to array rotate around point",
+                "value": "来绕点进行阵列旋转复制"
+            },
+            {
+                "key": "Degrees",
+                "value": "角度"
+            },
+            {
+                "key": " to twist selection",
+                "value": "来扭曲选区"
+            },
+            {
+                "key": "From",
+                "value": "光源"
+            },
+            {
+                "key": "Player Position",
+                "value": "居中在玩家位置"
+            },
+            {
+                "key": "Custom Positions",
+                "value": "自定义位置"
+            },
+            {
+                "key": "Sun Angle",
+                "value": "太阳光源"
+            },
+            {
+                "key": "Circle",
+                "value": "圆形"
+            },
+            {
+                "key": "Actions",
+                "value": "行为"
+            },
+            {
+                "key": "Split",
+                "value": "分割"
+            },
+            {
+                "key": "Segments",
+                "value": "段数"
+            },
+            {
+                "key": "Clear (Delete)",
+                "value": "清除 (Delete)"
+            },
+            {
+                "key": "Create a brush using a Lua script\nFunction must return block\n\n",
+                "value": "使用Lua脚本创建一个笔刷\n函数必须返回方块实例\n\n"
+            },
+            {
+                "key": "An error occurred while executing the script",
+                "value": "在执行当前脚本时出现了一个错误"
+            },
+            {
+                "key": "Lua Script Brush (Hover for help)",
+                "value": "Lua脚本笔刷 (悬停以获得帮助)"
+            },
+            {
+                "key": "\nCustom directives (put at start of script):\n$once$ -> apply the script to a specific point instead of a brush\n$ignoreMask$ -> affect all blocks regardless of mask (also ignores selection)\n",
+                "value": "\n自定义设置 (写在脚本开头):\n$once$ -> 将脚本的作用模式从笔刷区域改为单个特定坐标点\n$ignoreMask$ -> 无视蒙版和选区的限制影响所有方块\n"
+            },
+            {
+                "key": "Other",
+                "value": "其他"
+            },
+            {
+                "key": "Replace Solid Blocks",
+                "value": "替换固体方块"
+            },
+            {
+                "key": "Add Clipboard",
+                "value": "添加剪切板中的蓝图"
+            },
+            {
+                "key": "Paste Copy",
+                "value": "粘贴副本"
+            },
+            {
+                "key": "Thickness",
+                "value": "厚度"
+            },
+            {
+                "key": "Rows",
+                "value": "行"
+            },
+            {
+                "key": "Row #",
+                "value": "行 #"
+            },
+            {
+                "key": "Add Row",
+                "value": "添加行"
+            },
+            {
+                "key": "Paste and Select",
+                "value": "粘贴并选中"
+            },
+            {
+                "key": "Instant Place",
+                "value": "立刻放置"
+            },
+            {
+                "key": "Fluid Type",
+                "value": "流体种类"
+            },
+            {
+                "key": "Water",
+                "value": "水"
+            },
+            {
+                "key": "Lava",
+                "value": "岩浆"
+            },
+            {
+                "key": "Snow",
+                "value": "雪"
+            },
+            {
+                "key": "Quality",
+                "value": "渲染质量"
+            },
+            {
+                "key": "Flow Length",
+                "value": "流体长度"
+            },
+            {
+                "key": "Remove Fluids Without Sources",
+                "value": "移除无源的流体"
+            },
+            {
+                "key": "Removes extraneous fluids at the end of the operation if it isn't connected to a source block",
+                "value": "在操作结束时，清除所有未与流体源方块相连的多余流体"
+            },
+            {
+                "key": "Fill Edges",
+                "value": "填充边缘"
+            },
+            {
+                "key": "Adds fluid around the edge of blocks to make it look like it's flowing over the edge",
+                "value": "在方块边缘添加流体，使流体看起来像是正从边缘溢出流动"
+            },
+            {
+                "key": "Infinite Sources",
+                "value": "无限流体源"
+            },
+            {
+                "key": "Turns the initial region into infinite sources, making them able to propagate water without being drained",
+                "value": "将初始区域转化为无限流体源，使其能无限传播而不会耗尽"
+            },
+            {
+                "key": "Require Support To Flow",
+                "value": "流动需要支撑"
+            },
+            {
+                "key": "Only propagates water sideways if the block below is solid",
+                "value": "仅当下方的方块是固体时，水才向侧面传播"
+            },
+            {
+                "key": "Selection Options",
+                "value": "选区选项"
+            },
+            {
+                "key": "Copy Air",
+                "value": "复制空气"
+            },
+            {
+                "key": "Copy Entities",
+                "value": "复制实体"
+            },
+            {
+                "key": "Server doesn't support (or doesn't allow) requesting entity data",
+                "value": "服务器不支持或不允许请求实体数据"
+            },
+            {
+                "key": "Merge Blocks",
+                "value": "合并方块"
+            },
+            {
+                "key": "Merges new blocks with existing blocks based on block shape:\nIf the new block completely overlaps the old block, the new block is used\nOtherwise, the old block is used\n(Inverts if Keep Existing is disabled)",
+                "value": "根据方块的形状合并新旧方块\n如果新方块完全覆盖了旧方块，则使用新方块\n否则，使用旧方块\n(如果“保留现有”选项被禁用，则反之)"
+            },
+            {
+                "key": "Merges new blocks with existing blocks based on block shape:\nIf the old block completely overlaps the new block, the old block is used\nOtherwise, the new block is used\n(Inverts if Keep Existing is enabled)",
+                "value": "根据方块的形状合并新旧方块\n如果旧方块完全覆盖了新方块，则使用旧方块\n否则，使用新方块\n(如果“保留现有”选项被启用，则反之)"
+            },
+            {
+                "key": "Placement does not contain any Air blocks\nIf you wanted to copy air, tick \"Copy Air\" in the selection window",
+                "value": "放置内容不包含任何空气方块\n如果你想复制空气，请在选区窗口中勾选“复制空气”选项"
+            },
+            {
+                "key": "Placement does not contain any entities\nIf you wanted to copy entities, tick \"Copy Entities\" in the selection window",
+                "value": "放置内容不包含任何实体\n如果你想复制实体，请在选区窗口中勾选“复制实体”选项"
+            },
+            {
+                "key": "Paste Entities",
+                "value": "粘贴实体"
+            },
+            {
+                "key": "Allows for rotation by angles less than 90 degrees",
+                "value": "允许小于90度的旋转"
+            },
+            {
+                "key": "Flip...",
+                "value": "翻转..."
+            },
+            {
+                "key": "Apply Tool Mask",
+                "value": "应用蒙版工具"
+            },
+            {
+                "key": "Checks the active tool mask when pasting into the world",
+                "value": "当复制到世界中时，检查启用的蒙版工具"
+            },
+            {
+                "key": "Flip X",
+                "value": "翻转X轴"
+            },
+            {
+                "key": "Flip Y",
+                "value": "翻转Y轴"
+            },
+            {
+                "key": "Flip Z",
+                "value": "翻转Z轴"
+            },
+            {
+                "key": "Snap to ground",
+                "value": "吸附到地面"
+            },
+            {
+                "key": "Paste (",
+                "value": "粘贴 ("
+            },
+            {
+                "key": "Rotate Y",
+                "value": "旋转Y轴"
+            },
+            {
+                "key": "[Enabled]",
+                "value": "[启用]"
+            },
+            {
+                "key": "[Disabled]",
+                "value": "[关闭]"
+            },
+            {
+                "key": "Full Cube",
+                "value": "完整方块"
+            },
+            {
+                "key": "Must be a full 1x1x1 cube",
+                "value": "必须是完整方块"
+            },
+            {
+                "key": "Solid",
+                "value": "固体方块"
+            },
+            {
+                "key": "Must be collidable",
+                "value": "必须有碰撞体积"
+            },
+            {
+                "key": "Opaque",
+                "value": "不透明方块"
+            },
+            {
+                "key": "Must not be transparent",
+                "value": "必须是不透明方块"
+            },
+            {
+                "key": "Same Texture",
+                "value": "相同材质"
+            },
+            {
+                "key": "Must have the same texture on all sides",
+                "value": "必须所有面都材质相同"
+            },
+            {
+                "key": "Copy to Hotbar",
+                "value": "复制到快捷栏"
+            },
+            {
+                "key": "Export to Editor Gradient Painter",
+                "value": "导出到编辑器渐变绘制工具"
+            },
+            {
+                "key": "Export to Editor Gradient Brush",
+                "value": "导出到编辑器渐变绘制笔刷"
+            },
+            {
+                "key": "Colour Picker",
+                "value": "颜色选择器"
+            },
+            {
+                "key": "Cancelled open file, aborting",
+                "value": "取消打开文件，操作中止"
+            },
+            {
+                "key": "Cancelled file save, aborting",
+                "value": "取消保存文件，操作中止"
+            },
+            {
+                "key": "The Editor UI keybind has conflicts: ",
+                "value": "编辑器UI的快捷键存在冲突: "
+            },
+            {
+                "key": "Tip: Access the Axiom config by running /axiomconfig",
+                "value": "提示: 通过运行指令 /axiomconfig 来访问 Axiom 模组的配置"
+            },
+            {
+                "key": "Tip: Access the Axiom context menu by holding [",
+                "value": "提示: 要想打开 Axiom 的上下文菜单，请长按 ["
+            },
+            {
+                "key": "Tip: Access the Axiom Editor UI by pressing [",
+                "value": "提示: 要想打开 Axiom 的编辑器UI，请按下 ["
+            },
+            {
+                "key": "Hide",
+                "value": "隐藏"
+            },
+            {
+                "key": "If any input is true, then the output is true",
+                "value": "如果任意一个输入是true，则输出为true"
+            },
+            {
+                "key": "All inputs must be true for the output to be true",
+                "value": "所有输入都是true时输出为true"
+            },
+            {
+                "key": "Inverts the input; the input must be false for the output to be true",
+                "value": "反转输入，即输入为false时输出为true"
+            },
+            {
+                "key": "Offsets the target position, affecting all masks inside",
+                "value": "偏移目标位置，可以影响其中所有蒙版"
+            },
+            {
+                "key": "Matches the block at the target position",
+                "value": "匹配目标位置的方块"
+            },
+            {
+                "key": "Matches the block above the target position",
+                "value": "匹配目标位置上面的方块"
+            },
+            {
+                "key": "Matches the block below the target position",
+                "value": "匹配目标位置下面的方块"
+            },
+            {
+                "key": "Checks if any block in a radius from the target position matches",
+                "value": "检查目标位置半径X内是否有匹配方块"
+            },
+            {
+                "key": "Checks if any block touching the target position matches",
+                "value": "检查与目标位置相邻的位置是否有匹配方块"
+            },
+            {
+                "key": "Checks if any block horizontally touching the target position matches",
+                "value": "检查与目标位置水平相邻的位置是否有匹配方块"
+            },
+            {
+                "key": "Matches the biome at the target position",
+                "value": "匹配目标位置的生物群系"
+            },
+            {
+                "key": "Compares a constant value to the target y position",
+                "value": "将常量和目标的Y坐标进行比较"
+            },
+            {
+                "key": "Compares a constant value to the vertical angle of the surface",
+                "value": "将常量和斜面的法线角度进行比较"
+            },
+            {
+                "key": "Checks if the target position is inside the selection",
+                "value": "检查目标位置是否在选区内"
+            },
+            {
+                "key": "Checks if the target position has direct access to the sky",
+                "value": "检查目标位置上方是否有方块"
+            },
+            {
+                "key": "Checks if the target position is on the surface",
+                "value": "检查目标位置是否在斜面上"
+            },
+            {
+                "key": "Custom (Clipboard)",
+                "value": "自定义 (剪切板)"
+            },
+            {
+                "key": "Spike",
+                "value": "锥体"
+            },
+            {
+                "key": "Decimal Sizes",
+                "value": "小数尺寸"
+            },
+            {
+                "key": "Center Even Diameters",
+                "value": "偶数直径居中"
+            },
+            {
+                "key": "No text annotations found :(",
+                "value": "没有找到文本注释 :("
+            },
+            {
+                "key": "Matches the same block, ignoring block properties",
+                "value": "匹配相同方块，忽略方块的属性"
+            },
+            {
+                "key": "Blueprints",
+                "value": "蓝图"
+            },
+            {
+                "key": "Server Blueprints",
+                "value": "服务器蓝图"
+            },
+            {
+                "key": "Server Blueprints are a Commercial License feature. Click for more information",
+                "value": "服务器蓝图是一项商业许可证的功能。单击以获取更多信息"
+            },
+            {
+                "key": "Text",
+                "value": "文本"
+            },
+            {
+                "key": "Disabled Text",
+                "value": "禁用文本"
+            },
+            {
+                "key": "Text Input",
+                "value": "文本输入框"
+            },
+            {
+                "key": "Button",
+                "value": "按钮"
+            },
+            {
+                "key": "Checkbox",
+                "value": "复选框"
+            },
+            {
+                "key": "Demo Popup!",
+                "value": "弹窗！"
+            },
+            {
+                "key": "Slider",
+                "value": "滑块"
+            },
+            {
+                "key": "Collapsing Header",
+                "value": "可折叠标题"
+            },
+            {
+                "key": "Hello There!",
+                "value": "你好！"
+            },
+            {
+                "key": "Separator",
+                "value": "分隔符"
+            },
+            {
+                "key": "Tab1",
+                "value": "标签页1"
+            },
+            {
+                "key": "Contents1",
+                "value": "内容1"
+            },
+            {
+                "key": "Tab2",
+                "value": "标签页2"
+            },
+            {
+                "key": "Contents2",
+                "value": "内容2"
+            },
+            {
+                "key": "Tab3",
+                "value": "标签页3"
+            },
+            {
+                "key": "Contents3",
+                "value": "内容3"
+            },
+            {
+                "key": "Table 0,0",
+                "value": "表格 0,0"
+            },
+            {
+                "key": "Table 1,0",
+                "value": "表格 1,0"
+            },
+            {
+                "key": "Table 0,1",
+                "value": "表格 0,1"
+            },
+            {
+                "key": "Table 1,1",
+                "value": "表格 1,1"
+            },
+            {
+                "key": "Refresh (32) (Max)",
+                "value": "刷新 (32) (最大)"
+            },
+            {
+                "key": "Refresh",
+                "value": "刷新"
+            },
+            {
+                "key": "Refresh (",
+                "value": "刷新 ("
+            },
+            {
+                "key": "Left Click - Next Block",
+                "value": "单击左键 - 下一个方块"
+            },
+            {
+                "key": "Right Click - Previous Block",
+                "value": "单击右键 - 上一个方块"
+            },
+            {
+                "key": "*** Only includes entities within render distance ***",
+                "value": "*** 仅包括渲染范围内的实体 ***"
+            },
+            {
+                "key": "Remove",
+                "value": "移除"
+            },
+            {
+                "key": "Teleport (",
+                "value": "传送 ("
+            },
+            {
+                "key": "Unconfirm",
+                "value": "取消确认"
+            },
+            {
+                "key": "Set##SetPos1",
+                "value": "设置##SetPos1"
+            },
+            {
+                "key": "Set##SetPos2",
+                "value": "设置##SetPos2"
+            },
+            {
+                "key": "Set Pos1 to the player's current position",
+                "value": "设置Pos1为玩家当前位置"
+            },
+            {
+                "key": "Set Pos2 to the player's current position",
+                "value": "设置Pos2为玩家当前位置"
+            },
+            {
+                "key": "Confirm (",
+                "value": "确认 ("
+            },
+            {
+                "key": "Top",
+                "value": "顶部"
+            },
+            {
+                "key": "Bottom",
+                "value": "底部"
+            },
+            {
+                "key": "North",
+                "value": "北部"
+            },
+            {
+                "key": "East",
+                "value": "东部"
+            },
+            {
+                "key": "South",
+                "value": "南部"
+            },
+            {
+                "key": "West",
+                "value": "西部"
+            },
+            {
+                "key": "Single (Immediate)",
+                "value": "单次 (立即)"
+            },
+            {
+                "key": "Single (Deferred)",
+                "value": "延迟 (立即)"
+            },
+            {
+                "key": "Apply Gravity",
+                "value": "添加重力"
+            },
+            {
+                "key": "Filter Selected Blocks",
+                "value": "过滤选中的方块"
+            },
+            {
+                "key": "Tip: You can use Ctrl+Click to select multiple blocks for replacement",
+                "value": "提示: 你可以用Ctrl+左键来选择多种替换方块"
+            },
+            {
+                "key": "Don't show this tip again",
+                "value": "不要再显示这个提示"
+            },
+            {
+                "key": "Replace List",
+                "value": "替换列表"
+            },
+            {
+                "key": "Fluid Simulation",
+                "value": "液体模拟"
+            },
+            {
+                "key": "Progress: ",
+                "value": "进度: "
+            },
+            {
+                "key": "Elapsed Time: %02d:%02d",
+                "value": "已用时间: %02d:%02d"
+            },
+            {
+                "key": "Finish Early",
+                "value": "提前结束"
+            },
+            {
+                "key": "Search",
+                "value": "搜索"
+            }
+        ]
+    }
+]
