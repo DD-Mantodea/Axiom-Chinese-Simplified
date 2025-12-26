@@ -39,9 +39,11 @@
             "com.moulberry.axiom.tools.lasso_select.LassoSelect",
             "com.moulberry.axiom.editor.windows.operations.QuickReplaceWindow",
             "com.moulberry.axiom.tools.box_select.BoxSelectTool",
-            "com.moulberry.axiom.editor.windows/StyleEditorWindow",
+            "com.moulberry.axiom.editor.windows.StyleEditorWindow",
             "com.moulberry.axiom.screen.SwitchBuilderToolScreen",
-            "com.moulberry.axiom.screen.AxiomIntroductionScreen"
+            "com.moulberry.axiom.screen.AxiomIntroductionScreen",
+            "com.moulberry.axiom.buildertools.CloneBuilderTool",
+            "com.moulberry.axiom.buildertools.MoveBuilderTool"
         ],
         "pairs": [
             {
@@ -1323,6 +1325,38 @@
             {
                 "key": "Vines",
                 "value": "藤蔓"
+            },
+            {
+                "key": "Smear Offset: ",
+                "value": "延展偏移: "
+            },
+            {
+                "key": "Size: ",
+                "value": "尺寸: "
+            },
+            {
+                "key": "Stacks: ",
+                "value": "堆叠: "
+            },
+            {
+                "key": "Offset: ",
+                "value": "偏移: "
+            },
+            {
+                "key": "Ctrl+R - Rotate",
+                "value": "Ctrl+R - 旋转"
+            },
+            {
+                "key": "Ctrl+F - Flip",
+                "value": "Ctrl+F - 翻转"
+            },
+            {
+                "key": "Warning: ",
+                "value": "警告: "
+            },
+            {
+                "key": "Masks only apply to tools while this window is open, docked or minimised. Closing this window will result in the mask deactivating",
+                "value": "遮罩功能只在遮罩窗口打开、停靠或最小化时生效。关闭遮罩窗口会导致遮罩功能失效"
             }
         ]
     }
