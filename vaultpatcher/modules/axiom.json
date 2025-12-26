@@ -39,7 +39,9 @@
             "com.moulberry.axiom.tools.lasso_select.LassoSelect",
             "com.moulberry.axiom.editor.windows.operations.QuickReplaceWindow",
             "com.moulberry.axiom.tools.box_select.BoxSelectTool",
-            "com.moulberry.axiom.editor.windows/StyleEditorWindow"
+            "com.moulberry.axiom.editor.windows/StyleEditorWindow",
+            "com.moulberry.axiom.screen.SwitchBuilderToolScreen",
+            "com.moulberry.axiom.screen.AxiomIntroductionScreen"
         ],
         "pairs": [
             {
@@ -1145,6 +1147,182 @@
             {
                 "key": "Search",
                 "value": "搜索"
+            },
+            {
+                "key": "Keep Existing",
+                "value": "保留已有方块"
+            },
+            {
+                "key": "Welcome to Axiom",
+                "value": "欢迎使用Axiom"
+            },
+            {
+                "key": "It seems like this is your first time...\n\n",
+                "value": "看起来这是你第一次使用本模组...\n\n"
+            },
+            {
+                "key": "To access the ",
+                "value": "要想启用"
+            },
+            {
+                "key": " menu, hold ",
+                "value": "菜单，按住"
+            },
+            {
+                "key": "Builder Mode",
+                "value": "建筑模式"
+            },
+            {
+                "key": "To open/close the ",
+                "value": "要想打开或关闭"
+            },
+            {
+                "key": "Editor Mode",
+                "value": "编辑器模式"
+            },
+            {
+                "key": ", press ",
+                "value": "，按下"
+            },
+            {
+                "key": "To view this introduction again, run ",
+                "value": "要想重新访问本教程，执行指令"
+            },
+            {
+                "key": "To view Axiom's web documentation, run ",
+                "value": "要想访问Axiom的网页文档，执行指令"
+            },
+            {
+                "key": "To open Axiom's config documentation, run ",
+                "value": "要想打开Axiom的配置文档，执行指令"
+            },
+            {
+                "key": "Would you like to run through a quick introduction?",
+                "value": "你想来一个快速的介绍吗？"
+            },
+            {
+                "key": "Builder Tools",
+                "value": "建筑工具"
+            },
+            {
+                "key": "These tools are simple and are intended to ease structural/small scale building where use of the more powerful ",
+                "value": "这些工具比较简单，旨在简化结构性或小规模的建造，在这些情况下，使用更强大的"
+            },
+            {
+                "key": " is too slow\n\n",
+                "value": "反而会太慢\n\n"
+            },
+            {
+                "key": "To start using the tools, scroll to the 10th slot or press ",
+                "value": "要想使用这些工具，滚动到第10个快捷栏或按下"
+            },
+            {
+                "key": "To swap to a different tool, hold ",
+                "value": "要想更换不同的工具，按住  "
+            },
+            {
+                "key": " and scroll",
+                "value": "并滚动滚轮"
+            },
+            {
+                "key": "Would you like to try Enhanced Flight?\n",
+                "value": "你想试试增强的飞行功能吗？\n"
+            },
+            {
+                "key": "Enhanced Flight changes flight direction to be 3D and removes momentum\n",
+                "value": "增强的飞行功能会把飞行的方向改成3D的，并且会移除惯性"
+            },
+            {
+                "key": "You can always adjust the flight settings in the ",
+                "value": "你可以随时更改飞行相关的设定，只需要打开"
+            },
+            {
+                "key": " toolbox later",
+                "value": "工具箱即可"
+            },
+            {
+                "key": " default keybinds\n\n",
+                "value": "默认键位\n\n"
+            },
+            {
+                "key": "Would you like to use the default Axiom keybinds or Blender-like keybinds?\n",
+                "value": "你想使用默认的Axiom键位还是模仿Blender设置的键位？\n"
+            },
+            {
+                "key": "You can always adjust the keybinds later in the ",
+                "value": "你可以随时更改这些键位绑定，只需要在"
+            },
+            {
+                "key": " through Help > Keybinds",
+                "value": "下点击“键位绑定”按键即可"
+            },
+            {
+                "key": "That's it for this short introduction!",
+                "value": "这就是本教程的全部内容了！"
+            },
+            {
+                "key": "I hope you enjoy using Axiom\n\n",
+                "value": "我希望你喜欢Axiom这款模组"
+            },
+            {
+                "key": "Vanilla",
+                "value": "原版"
+            },
+            {
+                "key": "Enhanced",
+                "value": "增强"
+            },
+            {
+                "key": "Axiom Default",
+                "value": "Axiom默认"
+            },
+            {
+                "key": "Blender-like",
+                "value": "仿Blender"
+            },
+            {
+                "key": "Allows using decimal numbers (eg. 10.5) in various size sliders",
+                "value": "允许在各种尺寸滑块中使用小数 (如10.5)"
+            },
+            {
+                "key": "Adjusts even diameters (eg. 10) to be centered at the lower corner",
+                "value": "将偶数直径对齐到网格角点"
+            },
+            {
+                "key": "Clear Foliage",
+                "value": "清除植被"
+            },
+            {
+                "key": "Flowers",
+                "value": "花"
+            },
+            {
+                "key": "Grass",
+                "value": "草"
+            },
+            {
+                "key": "Heart",
+                "value": "心形"
+            },
+            {
+                "key": "Kelp",
+                "value": "海带"
+            },
+            {
+                "key": "Leafy Bushes",
+                "value": "灌木丛"
+            },
+            {
+                "key": "Terran: Desert",
+                "value": "地形: 沙漠"
+            },
+            {
+                "key": "Terran: Plains",
+                "value": "地形: 平原"
+            },
+            {
+                "key": "Vines",
+                "value": "藤蔓"
             }
         ]
     }
