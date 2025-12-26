@@ -43,7 +43,10 @@
             "com.moulberry.axiom.screen.SwitchBuilderToolScreen",
             "com.moulberry.axiom.screen.AxiomIntroductionScreen",
             "com.moulberry.axiom.buildertools.CloneBuilderTool",
-            "com.moulberry.axiom.buildertools.MoveBuilderTool"
+            "com.moulberry.axiom.buildertools.MoveBuilderTool",
+            "com.moulberry.axiom.buildertools.SmearBuilderTool",
+            "com.moulberry.axiom.buildertools.StackBuilderTool",
+            "com.moulberry.axiom.buildertools.BuilderToolSelectionState"
         ],
         "pairs": [
             {
@@ -1333,6 +1336,10 @@
             {
                 "key": "Size: ",
                 "value": "尺寸: "
+            },
+            {
+                "key": " blocks",
+                "value": "个方块"
             },
             {
                 "key": "Stacks: ",
